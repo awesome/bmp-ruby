@@ -32,8 +32,7 @@ Hoe.spec "bmp" do
   self.yard_markup          = 'markdown'
 
   self.extra_deps += [
-    ['chunky_png',                 '1.3.8'],
-    ['bit-struct',                 '0.15.0']
+    ['chunky_png',                 '>= 1.3.8', '< 2']
   ]
 
   self.extra_dev_deps += [

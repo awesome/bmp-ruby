@@ -4,8 +4,7 @@
 
 source "https://rubygems.org/"
 
-gem "chunky_png", "1.3.8"
-gem "bit-struct", "0.15.0"
+gem "chunky_png", ">=1.3.8", "<2"
 
 gem "minitest", "~>5.10", :group => [:development, :test]
 gem "hoe-yard", ">=0.1.3", :group => [:development, :test]

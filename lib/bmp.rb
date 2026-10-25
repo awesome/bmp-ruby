@@ -1,8 +1,8 @@
 require 'core_ext/array/extract_options.rb' unless Array.method_defined?(:extract_options!)
-require 'bit-struct'
 require 'chunky_png'
 
 require 'bmp/version'
+require 'bmp/packed_struct'
 require 'bmp/utils'
 require 'bmp/obj'
 
@@ -27,7 +27,7 @@ module BMP
 
   #
   # @param  input_filename  [PNG] including path
-  # @return                 [BitStruct]
+  # @return                 [BMP::PackedStruct]
   #
   def new(input_filename)
     img               = ChunkyPNG::Image.from_file(input_filename)

@@ -4,6 +4,19 @@ Bitmap generator (bitmap as in BMP image, not bitmap bitset)
   
 [![Gem Version](https://badge.fury.io/rb/bmp-ruby.svg)](https://badge.fury.io/rb/bmp-ruby)
 
+## Fork note: no bit-struct
+
+This fork ([awesome/bmp-ruby](https://github.com/awesome/bmp-ruby)) drops the
+`bit-struct` gem (Ruby License). `BMP::Obj` now inherits from
+`BMP::PackedStruct` (`lib/bmp/packed_struct.rb`, MIT), a small Array#pack
+based struct with the same DSL, so the API (`BMP.new`, `BMP.png_to_bmp`,
+`BMP::Obj` accessors, String behaviour) is unchanged and the bytes written
+are identical. See History.txt and `test/test_byte_identical.rb`.
+
+```ruby
+gem "bmp-ruby", git: "https://github.com/awesome/bmp-ruby.git", tag: "v0.1.1-awesome.1"
+```
+
 ## Usage
 
 ```

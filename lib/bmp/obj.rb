@@ -1,5 +1,5 @@
 module BMP
-  class Obj < BitStruct
+  class Obj < BMP::PackedStruct
     default_options :endian => :little
 
     #

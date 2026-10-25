@@ -1,0 +1,10 @@
+# sha256 of BMP.png_to_bmp(test/files/input/<name>.png) written by upstream
+# bmp-ruby 0.1.1 on bit-struct 0.15.0 + chunky_png 1.3.8 (Ruby 3.3.8).
+# test/test_byte_identical.rb asserts this fork still writes these exact bytes.
+f222dc3afef674386c99334b49d2b7ffee3dc17efaeb3407d8aa6ac66afd0a15  YVES-framework-opaque-16.bmp
+3f8b43a1e082a617260a48fa2f5995ed7d4aef19e82c4da43780e741bb34ec56  YVES-framework-opaque-256.bmp
+d21b75674cd19978dab0da12239e9cf45f5c965d06c6ec602d754d34d3ff9f7e  YVES-framework-transparent-16.bmp
+cc22c76deef1f8c8bf713e2d79024ca6e052d1527836873828d524087caa00fc  YVES-framework-transparent-256.bmp
+614f2cb547368038491aa9be43eaa3699a5d7c39fe01b7b13d11fb75c84d3efd  synthetic-16.bmp
+1432b8d95ad7e180fb63f8209f190112b045cec8422f7426c7051ad28cb30620  synthetic-32.bmp
+df0d3931036a77cce85b47e87f1f1ab810a748b34bcb1d52ae6b1e50b462ec4c  synthetic-48.bmp

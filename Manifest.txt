@@ -10,6 +10,7 @@ Rakefile
 bin/bmp
 lib/bmp.rb
 lib/bmp/obj.rb
+lib/bmp/packed_struct.rb
 lib/bmp/utils.rb
 lib/bmp/version.rb
 lib/core_ext/array/extract_options.rb
@@ -18,5 +19,12 @@ test/files/input/YVES-framework-opaque-16.png
 test/files/input/YVES-framework-opaque-256.png
 test/files/input/YVES-framework-transparent-16.png
 test/files/input/YVES-framework-transparent-256.png
+test/files/input/synthetic-16.png
+test/files/input/synthetic-32.png
+test/files/input/synthetic-48.png
+test/files/golden-bit-struct-0.15.0.sha256
 test/files/output/.keep
+test/test_bit_struct_parity.rb
 test/test_bmp.rb
+test/test_byte_identical.rb
+test/test_packed_struct.rb
